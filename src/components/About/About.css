@@ -1,0 +1,13 @@
+.content-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    
+    .ab-margin{
+        margin: 3em;
+        padding: 2em;
+        border: 1px solid blue;
+        background-color: aquamarine;
+    }

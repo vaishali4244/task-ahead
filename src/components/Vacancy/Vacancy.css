@@ -1,0 +1,19 @@
+.vacancy{
+    display: flex;
+}
+
+.va-margin{
+    margin: 2em;
+    border: 1px solid blue;
+    background-color: antiquewhite;
+}
+
+li{
+    list-style-type: circle;
+}
+
+.btn-vc{
+    padding: 8px 15px;
+    border-radius: 15px;
+    margin-left: 3em;
+}
