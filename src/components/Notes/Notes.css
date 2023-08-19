@@ -1,6 +1,26 @@
-.notes{
-    width: 300px;
-    height: 200px;
-    border: 1 px solid pink;
-    border-radius: 5px;
+.content-notes{
+    padding: 20px;
+    margin: auto;
+    width: 90vw;
 }
+
+.notesItem{
+     width: 204px;
+   /* height: 120px; */
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+.notes{
+    display: flex;
+    border: 1px solid blue;
+}
+.notes h5{
+    font-size: 1em;
+}
+.notes-p{
+    font-size: 0.8em;
+}
+

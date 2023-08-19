@@ -1,17 +1,17 @@
 .navbar {
     display: flex;
-    padding: 15px 13px;
-    width: 90vw;
-    background-color: rgb(13, 31, 59);
-    height: 10vh;
+    padding: 17px 13px;
+    /* width: 90vw; */
+    /* background-color: rgb(13, 31, 59); */
+    height: 8vh;
 }
 
 .navigation {
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: none;
     width: 75vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-end;
 }
 
@@ -23,12 +23,28 @@ li {
 .nav {
     font-size: 1.6em;
     padding: 0px 30px;
-    color: rgb(136, 172, 185);
+    color: black;
     text-decoration: none;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
-.nav:hover {
+.btn-nav{
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.nav-logo{
+    background-color: rgb(207, 183, 228);
+    border-radius: 15px;
+    padding-top: 4px;
+    margin: 5px;
+    /* height: 20px;
+    width: 20px; */
+}
+/* .nav:hover {
     color: orange;
 }
 
@@ -43,4 +59,4 @@ li {
     .nav:hover {
         font-weight: bold;
     }
-}
+} */

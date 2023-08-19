@@ -1,13 +1,17 @@
 import React from "react";
+
 import "./Notes.css";
 
 
-const NotesItem = () => {
+const NotesItem = (props) => {
+    let {emoji}=props;
     return (
         
-            <div className="notes">
-                <h3>Does this sounds familiar...</h3>
-                <p>Before you get started</p>
+            <div className="notesItem">  
+<span>{emoji}</span>
+            {/* <SentimentDissatisfiedTwoToneIcon/>          */}
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p className="notes-p">Lorem ipsum dolor tate? Enim error eius quod.Before you get started</p>
             </div>
         
     )

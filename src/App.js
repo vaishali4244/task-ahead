@@ -2,10 +2,11 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Notes from './components/Notes/Notes';
-import Timeline from './components/Timeline/Timeline';
+import BasicTimeline from './components/Timeline/Timeline';
 import About2 from './components/About2/About2';
 import Test from './components/Test/Test';
 import Vacancy from './components/Vacancy/Vacancy';
+import Rating from './components/Rating/Rating';
 
 import './App.css';
 
@@ -15,8 +16,9 @@ function App() {
       <Navbar></Navbar>
       <About/>
       <Notes/>
-      <Timeline/>
+      <BasicTimeline/>
       <About2/>
+      <Rating/>
       <Test/>
      <Vacancy/>
 
