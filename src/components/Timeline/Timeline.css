@@ -10,8 +10,44 @@
 
 .container-tl{
 left: -300px;
+margin-top: 0;
+position: relative;
+/* top: 0; */
 }
 
+.container-tl h5{
+    font-size: 1.1em;
+}
+.container-tl p{
+    font-size: 1em;
+}
 .tl-margin{
     width: 50vw;
 }
+
+.doodle{
+    position: absolute;
+    width: 50px;
+
+    top: 50%;
+    right: 0;
+    height: auto;
+    animation: fly 6s ease-in-out forwards;  
+}
+@keyframes fly {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-140px, 30px);
+    }
+    50% {
+        transform: translate(-330px, 50px) rotate(180deg);
+    }
+    75% {
+        transform: translate(-580px, 30px) rotate(360deg);
+    }
+    100% {
+        transform: translate(-750px, 40px);
+      }
+  }

@@ -20,21 +20,7 @@ const SvgIcon = (props) => {
         ></path>
       </svg>
     );
-  } else if (props.name === "burgermenu") {
-    return (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width={props.width ? props.width : "1.25vw"}
-        height={props.height ? props.height : "1.125vw"}
-        fill="none"
-        viewBox="0 0 24 24"
-      >
-        <path
-          fill="#770015"
-          d="M16 18v2H5v-2h11zm5-7v2H3v-2h18zm-2-7v2H8V4h11z"
-        ></path>
-      </svg>
-    );
+  
   }else if(props.name === "search"){
     return(
       <svg
