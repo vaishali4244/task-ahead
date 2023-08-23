@@ -1,19 +1,58 @@
-.vacancy{
+.content-vacancy {
+    width: 90vw;
+    height: 50vh;
+    margin: 40px;
+    margin-left: 60px;
+}
+
+.content-vacancy h3 {
+    font-size: 1.8em;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.vacancy {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.va-margin{
+.vacancy h5 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.va-margin {
     margin: 2em;
+    padding: 15px;
+    width: 320px;
+    /* height: 250px; */
     border: 1px solid blue;
-    background-color: antiquewhite;
+    border-radius: 20px;
+    background-color: #ede8cf;
 }
 
-li{
-    list-style-type: circle;
-}
-
-.btn-vc{
+.va-margin button {
+    width: 110px;
+    height: 36px;
+    border-style: none;
+    border-radius: 30px;
     padding: 8px 15px;
-    border-radius: 15px;
     margin-left: 3em;
+    color: white;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.va-margin:hover button {
+    visibility: inherit;
+    opacity: 1;
+}
+
+li {
+    list-style-type: circle;
+    padding-left: 10px;
 }

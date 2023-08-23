@@ -1,5 +1,6 @@
-.content-test{
+.content-test {
     width: 80vw;
+    height: 90vh;
     margin: auto;
     background-color: antiquewhite;
     display: flex;
@@ -9,8 +10,79 @@
 
 }
 
-.test{
-display: flex;
-flex-direction: column;
+.test {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+button {
+    width: 110px;
+    height: 36px;
+    border-style: none;
+    border-radius: 30px;
+    padding: 8px 15px;
+    margin: 30px;
+    color: white;
+    background-color: black;
+}
+
+.test-sign {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    /* width: 220px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-sign p{
+    /* margin: 5px; */
+    width: 100px;
+    /* position: fixed;
+    left:45vw;
+    bottom:40vh */
+}
+
+.sign {
+    /* border: 1px solid blue; */
+    /* display: block; */
+    white-space: nowrap;
+    overflow:hidden;
+    animation: typing 4s steps(10,end) forwards;
+}
+
+.p1{
+    margin-bottom: 10px;
+}
+.p2 {
+    font-size: 1.6em;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.p3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 0;
+    /* padding: 0; */
+}
+
+.p4 {
+    font-size: 0.8em;
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }

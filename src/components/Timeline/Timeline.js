@@ -16,32 +16,33 @@ export default function BasicTimeline() {
             <Timeline  className='tl-margin'>
                 <TimelineItem className='container-tl'>
                     <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
+                        <TimelineDot className='tl-dot' style={{backgroundColor:"#6141eb "}}/>
+                        <TimelineConnector style={{backgroundColor:" #6141eb"}}/>
                     </TimelineSeparator>
-                    <TimelineContent> <h5>It's not as easy as 1-2-3.</h5><p>
+                    <TimelineContent className='tl-text'> <h5>It's not as easy as 1-2-3.</h5><p>
                         consequuntur voluptate tempore, obcaecati iste culpa provident illum sint unde.</p></TimelineContent>
                 </TimelineItem>
                 <TimelineItem className='container-tl'>
                     <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
+                    <TimelineDot className='tl-dot' style={{backgroundColor:"#6141eb "}}/>
+                        <TimelineConnector style={{backgroundColor:" #6141eb"}}/>
                     </TimelineSeparator>
-                    <TimelineContent><h5>Old habits are hard to break.</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cupiditate sit officiis laborum repudiandae labore molestias!</p></TimelineContent>
+                    <TimelineContent className='tl-text'><h5>Old habits are hard to break.</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cupiditate sit officiis laborum repudiandae labore molestias!</p></TimelineContent>
                 </TimelineItem>
                 <TimelineItem className='container-tl'>
                     <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
+                    <TimelineDot className='tl-dot' style={{backgroundColor:"#6141eb "}}/>
+                        <TimelineConnector style={{backgroundColor:" #6141eb"}}/>
                     </TimelineSeparator>
-                    <TimelineContent><h5>You and your motivation don't have a long-term relationship.</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vel alias in omnis! Architecto doloremque mollitia reprehenderit maxime nesciunt cupiditate?
+                    <TimelineContent className='tl-text'><h5>You and your motivation don't have a long-term relationship.</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vel alias in omnis! Architecto doloremque mollitia reprehenderit maxime nesciunt cupiditate?
                         </p></TimelineContent>
                 </TimelineItem>
                 <TimelineItem className='container-tl'>
                     <TimelineSeparator>
-                        <TimelineDot />
+                    <TimelineDot className='tl-dot' style={{backgroundColor:"#6141eb "}}/>
+                        <TimelineConnector style={{backgroundColor:" #6141eb"}}/>
                     </TimelineSeparator>
-                    <TimelineContent><h5>Books just don't offer practical solutions.</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam exercitationem optio eaque quisquam distinctio sapiente?</p></TimelineContent>
+                    <TimelineContent className='tl-text'><h5>Books just don't offer practical solutions.</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam exercitationem optio eaque quisquam distinctio sapiente?</p></TimelineContent>
                 </TimelineItem>
             </Timeline>
         </div>

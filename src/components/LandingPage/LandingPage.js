@@ -1,12 +1,17 @@
 import React from "react";
-import './Contact.css';
-
+import "./LandingPage.css";
 const LandingPage = () => {
     return (
-        <div className="container4">
-            <h2>CONTACT LINKS </h2>
-            <p>I am looking for Frontend Developer roles that have interesting problems to solve, offer professional growth and learning, and that value People and Processes greater than Technology.</p>
-            <div className="shade"></div>
+        <div className="container-LP">
+            <div className="content-LP">
+            <h2>Ahead app</h2>
+            <h1>Master your life </h1> 
+            <h1>by mastering </h1>
+                <h1>emotions</h1>
+           <div className="appStore">
+            <img src="" alt="" />
+           </div>
+        </div>
         </div>
     )
 }

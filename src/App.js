@@ -7,13 +7,17 @@ import About2 from './components/About2/About2';
 import Test from './components/Test/Test';
 import Vacancy from './components/Vacancy/Vacancy';
 import Rating from './components/Rating/Rating';
+import LandingPage from './components/LandingPage/LandingPage';
 
 import './App.css';
 
 function App() {
   return (
     <div className="container">
-      <Navbar></Navbar>
+      <div className='nav-main'>
+      <Navbar/>
+      </div>
+      <LandingPage/>
       <About/>
       <Notes/>
       <BasicTimeline/>
