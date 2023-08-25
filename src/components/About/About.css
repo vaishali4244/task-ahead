@@ -1,25 +1,24 @@
-.content-about{
+.content-about {
+    width: 90vw;
+    height: 95vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-margin: 0 5em;
-    }
-    
-    
-    .ab-margin{
-        margin: 1em 1em;
-        padding: 2em 0;
-        font-size:1.2em ;
-        width: 300px;
-        height: 150px;
-        /* background-color: aquamarine; */
-    }
-    
-    .heading-4{
-        /* border: 1px solid blue; */
-        font-size: 1.7em;
-        margin:0px 70px;
-        padding-top: 40px;
-        height:150px ;
-        width:300px;
-    }
+    margin: 0 5em;
+}
+
+.ab-margin {
+    margin: 1em 1em;
+    padding: 2em 0;
+    font-size: 1.2em;
+    width: 300px;
+    height: 150px;
+}
+
+.heading-4 {
+    font-size: 2em;
+    margin: 0px 70px;
+    padding-top: 40px;
+    height: 150px;
+    width: 300px;
+}

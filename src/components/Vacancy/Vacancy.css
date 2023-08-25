@@ -1,14 +1,16 @@
 .content-vacancy {
     width: 90vw;
-    height: 50vh;
-    margin: 40px;
+    height: 95vh;
     margin-left: 60px;
+    padding-top:50px;
 }
 
 .content-vacancy h3 {
-    font-size: 1.8em;
+    font-size: 2.5em;
     margin-bottom: 0;
-    margin-left: 20px;
+    margin-left: 50px;
+    white-space: nowrap;
+    animation: slide 0.8s linear;
 }
 
 .vacancy {
@@ -16,21 +18,24 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+
 }
 
 .vacancy h5 {
     font-size: 1.2em;
-    margin-bottom: 0;
+    margin: 10px 10px;
 }
 
 .va-margin {
     margin: 2em;
     padding: 15px;
-    width: 320px;
-    /* height: 250px; */
-    border: 1px solid blue;
+    width: 300px;
+    height: 220px;
     border-radius: 20px;
     background-color: #ede8cf;
+}
+.va-margin ol{
+    margin-bottom:0 ;
 }
 
 .va-margin button {
@@ -45,6 +50,8 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.7s ease-in-out;
+     white-space: nowrap;
+    animation: slide 0.8s linear;
 }
 
 .va-margin:hover button {

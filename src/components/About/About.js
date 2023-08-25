@@ -13,9 +13,7 @@ const About = () => {
                     <p> The are more successful in their pursuits and make for inspiring leader. According to science, they earn $29k a year.</p>
                 </div>
             </div>
-
         </div>
-
     )
 }
 

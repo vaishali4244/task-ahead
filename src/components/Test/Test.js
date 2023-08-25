@@ -11,15 +11,12 @@ const Test = () => {
                 <p className="p3"> you which friends said what about you)"</p>
                 <div className="test-sign">
                     <div className="p1"><p> with love,</p></div>
-                    <div className="sign p1"> <p > Team ahead</p> </div>
+                    <div className="sign p1"> <p> Team ahead</p> </div>
                 </div>
-
                 <button>Start a test</button>
                 <div className="p4">take only 5 minutes</div>
             </div>
-
         </div>
-
     )
 }
 

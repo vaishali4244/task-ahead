@@ -1,104 +1,131 @@
-.content-notes{
+.content-notes {
     padding: 20px;
-    margin: auto;
-    width: 90vw;
+    margin:20px 180px;
+    width: 70vw;
+    height: 95vh;
+    overflow: hidden;
+    position: relative;
+
 }
 
-.content-notes h2{
+.content-notes h2 {
     font-size: 2.2em;
-}
-.notesItem{
-    width: 208px;
-    height: 125px;
-    /* margin: 30px;*/
-     /* padding: 20px;  */
-    /* border: 1px solid red; */
-    border-radius: 15px;
+    margin-bottom: 20px;
+    position: absolute;
+    white-space: nowrap;
+    animation: slide 0.5s linear;
 }
 
-.notesItem span{
-    margin:15px;
-    padding: 0;
+@keyframes slide {
+    from {
+        transform: translateX(-50%);
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        transform: scale(1);
+        opacity: 1;
+    }
 }
-.notesItem p{
-    margin:10px;
-    padding: 0;
-}
-
-.notesItem h5{
-    margin:10px;
-    padding: 0;   
-}
-.notes{
+.main-notes {
     display: flex;
-    /* border: 1px solid blue; */
-    animation-name: notes;
-            animation-duration: 16s;
-            animation-iteration-count: infinite;
-            animation-timing-function:linear;
-            animation-fill-mode:forwards;
-            overflow: hidden;
-            transition: all 5s ease-out 0.5s;
+    flex-direction: row;
 }
-.notes h5{
+
+.notesItem {
+    width: 218px;
+    height: 125px;
+    margin: 0px;
+    padding: 5px; 
+    border-radius: 25px;
+    
+}
+
+.notesItem span {
+    margin: 15px;
+    padding: 0;
+}
+
+.notesItem p {
+    margin: 10px;
+    padding: 0;
+}
+
+.notesItem h5 {
+    margin: 10px;
+    padding: 0;
+}
+
+.notes {
+    width: 100%;
+    display: flex;
+    margin: 30px;
+    position: absolute;
+  white-space: nowrap;
+  animation: notes 15s linear infinite;
+}
+
+.notes h5 {
     font-size: 1em;
 }
-.notes-p{
+
+.notes-p {
     font-size: 0.8em;
 }
 
-.notes-box{
+.notes-box {
     width: 213px;
     margin: 20px;
     padding: 15px;
     background-color: #ffefd5;
     border-radius: 12px;
+    white-space: wrap;
 }
 
-.notes-box:nth-child(odd){
-background-color: #e1d8fc;
+.notes-box:nth-child(odd) {
+    background-color: #e1d8fc;
 }
 
-.notes-box:hover{
+.notes-box:hover {
     transform: rotate(-10deg);
     background-color: #6341ef;
     color: white;
+}
+
+@keyframes notes {
+    from {
+        transform: translateX(100%);
     }
-
-    @keyframes notes {
-        from {
-            margin-left: 100%;
-        }
-
-        to {
-            margin-left: -100%;
-        }
+    to {
+        transform: translateX(-100%);
     }
+}
 
-    .doodle{
-        position: absolute;
-        width: 50px;
+.doodle4{
+    width:35px;
+    height: 50px;
+    position: relative;
+    top:10px;
+    left: 1000px;
+    animation: flying 6s ease-in-out forwards;
+}
 
-        top: 50%;
-        right: 0;
-        height: auto;
-        animation: fly 6s ease-in-out forwards;  
+@keyframes flying {
+    0% {
+        transform: translate(80, 0);
     }
-
-    @keyframes fly {
-        0% {
-            transform: translate(0, 0);
-        }
-        25% {
-            transform: translate(-140px, 30px);
-        }
-        50% {
-            transform: translate(-330px, 50px) rotate(180deg);
-        }
-        75% {
-            transform: translate(-580px, 30px) rotate(360deg);
-        }
-        100% {
-            transform: translate(-750px, 40px);
-          }
-      }
+    25% {
+        transform: translate(-190px, -20px)
+        rotate(60deg);
+    }
+    50% {
+        transform: translate(-310px, 20px) rotate(180deg);
+    }
+    75% {
+        transform: translate(-400px, -30px) rotate(360deg);
+    }
+    100% {
+        transform: translate(-500px, -10px);
+    }
+}

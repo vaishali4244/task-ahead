@@ -1,15 +1,14 @@
 .navbar {
     display: flex;
     padding: 17px 13px;
-    /* width: 90vw; */
-    /* background-color: rgb(13, 31, 59); */
     height: 5vh;
-    width: 100vw;
+    width: 90vw;
+    margin: 10px auto;
     position: sticky;
+    background: white;
 }
 
 .navigation {
-    /* font-weight: bold; */
     text-decoration: none;
     width: 75vw;
     display: flex;
@@ -27,7 +26,6 @@ li {
     padding: 0px 30px;
     color: black;
     text-decoration: none;
-    /* font-weight: bold; */
 }
 
 .btn-nav{
@@ -36,11 +34,11 @@ li {
     background-color: black;
     border: 1px solid black;
     border-radius: 25px;
+    margin: 0;
 }
 
 .nav-logo{
     background-color: rgb(207, 183, 228);
     border-radius: 15px;
-    padding-top: 4px;
-    margin: 5px;
+    margin: -5px 12px;
 }

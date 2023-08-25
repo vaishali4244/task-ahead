@@ -5,14 +5,15 @@ import SentimentNeutralIcon from '@mui/icons-material/SentimentNeutral';
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
 import "./Notes.css";
 
-const Notes = (props) => {
-    return (
+const Notes = (props) => {return (
         <div className="content-notes">
-            <h2>Does this sounds familiar...</h2>
-            <img className="doodle" 
-            src={require("../../assets/images/doodle.png")} 
-            alt="doodle" 
-            />
+            <div className="main-notes">
+                <h2>Does this sounds familiar...</h2>
+                <img className="doodle4"
+                    src={require("../../assets/images/doodle.png")}
+                    alt="doodle"
+                />
+            </div>
             <div className="notes">
                 <div className="notes-box" >
                     <NotesItem emoji={<SentimentDissatisfiedTwoToneIcon />} />
@@ -26,9 +27,6 @@ const Notes = (props) => {
                 <div className="notes-box"  >
                     <NotesItem emoji={<SentimentSatisfiedAltIcon />} />
                 </div>
-                {/* <div>
-                    <NotesItem emoji={<SentimentNeutralIcon/>}/>
-                </div> */}
 
             </div>
 
